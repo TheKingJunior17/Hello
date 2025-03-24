@@ -1,12 +1,8 @@
-// util.h
 #ifndef UTIL_H
-#define UTIL_H
+#define	UTIL_H
 
-#include "heap.h"
-#include <string>
+ int nextCommand(int& , int&);
+ void errorOut(int);
+ void warningOut(int);
 
-bool isValidExecution(int argc, char *argv[]);
-void printUsageMessage();
-void handleInstruction(const std::string &instruction, HEAP *heap, int flag);
-
-#endif
+ #endif	/*UTIL_H */
