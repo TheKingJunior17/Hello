@@ -1,15 +1,30 @@
-// heap.h
-#ifndef HEAP_H
-#define HEAP_H
+// heap.cpp
+#include "heap.h"
 
-#include "data_structures.h"
+HEAP *initHeap(int capacity) {
+    // Implement heap initialization
+}
 
-HEAP *initHeap(int capacity);
-void printHeap(HEAP *heap);
-void writeHeap(HEAP *heap, const char *filename);
-void readHeap(HEAP *heap, const char *filename);
-void insertElement(HEAP *heap, double key, int flag);
-void extractMin(HEAP *heap, int flag);
-void decreaseKey(HEAP *heap, int position, double newKey);
+void printHeap(HEAP *heap) {
+    // Implement heap printing
+}
 
-#endif
+void writeHeap(HEAP *heap, const char *filename) {
+    // Implement writing heap to file
+}
+
+void readHeap(HEAP *heap, const char *filename) {
+    // Implement reading heap from file
+}
+
+void insertElement(HEAP *heap, double key, int flag) {
+    // Implement element insertion
+}
+
+void extractMin(HEAP *heap, int flag) {
+    // Implement extraction of minimum element
+}
+
+void decreaseKey(HEAP *heap, int position, double newKey) {
+    // Implement decreasing key operation
+}
