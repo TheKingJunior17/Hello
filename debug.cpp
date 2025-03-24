@@ -1,14 +1,4 @@
-/*******************************************************************************
- * FILE NAME: degub.cpp
- * DATE: 2013-10-16
- * AUTHOR: Zachary Priddy
- *              me@zpriddy.com
- *              zpriddy@asu.edu
- * 
- * DESC:
- * 
- * 
- ******************************************************************************/
+
 #include <cstdlib>
 #include <iostream>
 
