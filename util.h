@@ -1,15 +1,12 @@
-/*******************************************************************************
- * File:   util.h
- * Author: Zachary Priddy <zpriddy@asu.edu>
- * Class: CSE310 - Fall 2013 - M W 3:00pm
- *
- * Created on October 19, 2013
- *******************************************************************************/
+// util.h
 #ifndef UTIL_H
-#define	UTIL_H
+#define UTIL_H
 
- int nextCommand(int& , int&);
- void errorOut(int);
- void warningOut(int);
+#include "heap.h"
+#include <string>
 
- #endif	/*UTIL_H */
+bool isValidExecution(int argc, char *argv[]);
+void printUsageMessage();
+void handleInstruction(const std::string &instruction, HEAP *heap, int flag);
+
+#endif
